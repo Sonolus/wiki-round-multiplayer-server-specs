@@ -1,0 +1,121 @@
+[
+    {
+        "title": "Round Multiplayer Server Specs",
+        "pages": {
+            "/": "Introduction",
+            "/overview": "Overview"
+        }
+    },
+    {
+        "title": "State",
+        "pages": {
+            "/state/overview": "Overview",
+            "/state/allow-other-servers": "allowOtherServers",
+            "/state/auto-exit": "autoExit",
+            "/state/is-suggestions-locked": "isSuggestionsLocked",
+            "/state/lead": "lead",
+            "/state/level": "level",
+            "/state/level-options": "levelOptions",
+            "/state/master": "master",
+            "/state/options-and-option-values": "optionsAndOptionValues",
+            "/state/report-user-options": "reportUserOptions",
+            "/state/results": "results",
+            "/state/scoreboard-description": "scoreboardDescription",
+            "/state/scoreboard-sections": "scoreboardSections",
+            "/state/status": "status",
+            "/state/suggestions": "suggestions",
+            "/state/title": "title",
+            "/state/users": "users",
+            "/state/user-statuses": "userStatuses"
+        }
+    },
+    {
+        "title": "Misc",
+        "pages": {
+            "/misc/auto-exit": "AutoExit",
+            "/misc/gameplay-result": "GameplayResult",
+            "/misc/level-locator": "LevelLocator",
+            "/misc/level-option-entry": "LevelOptionEntry",
+            "/misc/result-entry": "ResultEntry",
+            "/misc/room-status": "RoomStatus",
+            "/misc/room-user": "RoomUser",
+            "/misc/score-entry": "ScoreEntry",
+            "/misc/scoreboard-section": "ScoreboardSection",
+            "/misc/server-options-section": "ServerOptionsSection",
+            "/misc/suggestion": "Suggestion",
+            "/misc/user-status": "UserStatus",
+            "/misc/user-status-entry": "UserStatusEntry"
+        }
+    },
+    {
+        "title": "Events",
+        "pages": {
+            "/events/add-chat-message-event": "AddChatMessageEvent",
+            "/events/add-result-event": "AddResultEvent",
+            "/events/add-suggestion-event": "AddSuggestionEvent",
+            "/events/add-user-event": "AddUserEvent",
+            "/events/arrange-scoreboard-section-scores-event": "ArrangeScoreboardSectionScoresEvent",
+            "/events/clear-suggestions-event": "ClearSuggestionsEvent",
+            "/events/insert-scoreboard-section-event": "InsertScoreboardSectionEvent",
+            "/events/insert-scoreboard-section-score-event": "InsertScoreboardSectionScoreEvent",
+            "/events/merge-scoreboard-section-scores-event": "MergeScoreboardSectionScoresEvent",
+            "/events/move-scoreboard-section-event": "MoveScoreboardSectionEvent",
+            "/events/move-scoreboard-section-score-event": "MoveScoreboardSectionScoreEvent",
+            "/events/remove-scoreboard-section-event": "RemoveScoreboardSectionEvent",
+            "/events/remove-scoreboard-section-score-event": "RemoveScoreboardSectionScoreEvent",
+            "/events/remove-suggestion-event": "RemoveSuggestionEvent",
+            "/events/remove-user-event": "RemoveUserEvent",
+            "/events/start-round-event": "StartRoundEvent",
+            "/events/swap-scoreboard-section-scores-event": "SwapScoreboardSectionScoresEvent",
+            "/events/swap-scoreboard-sections-event": "SwapScoreboardSectionsEvent",
+            "/events/swap-suggestions-event": "SwapSuggestionsEvent",
+            "/events/update-auto-exit-event": "UpdateAutoExitEvent",
+            "/events/update-event": "UpdateEvent",
+            "/events/update-is-suggestions-locked-event": "UpdateIsSuggestionsLockedEvent",
+            "/events/update-lead-event": "UpdateLeadEvent",
+            "/events/update-level-event": "UpdateLevelEvent",
+            "/events/update-level-option-event": "UpdateLevelOptionEvent",
+            "/events/update-level-options-event": "UpdateLevelOptionsEvent",
+            "/events/update-master-event": "UpdateMasterEvent",
+            "/events/update-option-values-event": "UpdateOptionValuesEvent",
+            "/events/update-options-event": "UpdateOptionsEvent",
+            "/events/update-scoreboard-description-event": "UpdateScoreboardDescriptionEvent",
+            "/events/update-scoreboard-section-event": "UpdateScoreboardSectionEvent",
+            "/events/update-scoreboard-section-icon-event": "UpdateScoreboardSectionIconEvent",
+            "/events/update-scoreboard-section-scores-event": "UpdateScoreboardSectionScoresEvent",
+            "/events/update-scoreboard-section-scores-value-event": "UpdateScoreboardSectionScoresValueEvent",
+            "/events/update-scoreboard-section-title-event": "UpdateScoreboardSectionTitleEvent",
+            "/events/update-scoreboard-sections-event": "UpdateScoreboardSectionsEvent",
+            "/events/update-status-event": "UpdateStatusEvent",
+            "/events/update-suggestions-event": "UpdateSuggestionsEvent",
+            "/events/update-title-event": "UpdateTitleEvent",
+            "/events/update-user-status-event": "UpdateUserStatusEvent",
+            "/events/update-user-statuses-event": "UpdateUserStatusesEvent",
+            "/events/update-users-event": "UpdateUsersEvent"
+        }
+    },
+    {
+        "title": "Commands",
+        "pages": {
+            "/commands/add-chat-message-command": "AddChatMessageCommand",
+            "/commands/add-suggestion-command": "AddSuggestionCommand",
+            "/commands/clear-suggestion-command": "ClearSuggestionCommand",
+            "/commands/finish-gameplay-command": "FinishGameplayCommand",
+            "/commands/remove-suggestion-command": "RemoveSuggestionCommand",
+            "/commands/remove-user-command": "RemoveUserCommand",
+            "/commands/report-user-command": "ReportUserCommand",
+            "/commands/reset-scoreboard-command": "ResetScoreboardCommand",
+            "/commands/start-gameplay-command": "StartGameplayCommand",
+            "/commands/swap-suggestions-command": "SwapSuggestionsCommand",
+            "/commands/update-auto-exit-command": "UpdateAutoExitCommand",
+            "/commands/update-is-suggestions-locked-command": "UpdateIsSuggestionsLockedCommand",
+            "/commands/update-lead-command": "UpdateLeadCommand",
+            "/commands/update-level-command": "UpdateLevelCommand",
+            "/commands/update-level-option-command": "UpdateLevelOptionCommand",
+            "/commands/update-master-command": "UpdateMasterCommand",
+            "/commands/update-option-values-command": "UpdateOptionValuesCommand",
+            "/commands/update-status-command": "UpdateStatusCommand",
+            "/commands/update-user-status-command": "UpdateUserStatusCommand"
+        }
+    }
+]
