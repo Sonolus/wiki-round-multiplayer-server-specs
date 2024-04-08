@@ -27,7 +27,7 @@ jobs:
                   API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB_WIKI_DEPLOY }}
               with:
                   source-directory: 'docs/.vuepress/dist'
-                  target-directory: 'dist/round-multiplayer-specs'
+                  target-directory: 'dist/round-multiplayer-server-specs'
                   destination-github-username: 'Sonolus'
                   destination-repository-name: 'wiki'
                   user-email: 'action@github.com'
