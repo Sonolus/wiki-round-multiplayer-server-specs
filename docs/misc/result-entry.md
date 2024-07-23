@@ -6,7 +6,7 @@ Player result.
 
 ```ts
 type ResultEntry = {
-    userId: string
+    userId: ServiceUserId
     result: GameplayResult
 }
 ```

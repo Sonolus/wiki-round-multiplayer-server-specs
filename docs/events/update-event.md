@@ -6,19 +6,19 @@
 type UpdateEvent = {
     type: 'update'
     allowOtherServers: boolean
-    reportUserOptions: ServerOptionsSection[]
+    reportUserOptions: ServerForm[]
     title: string
     status: RoomStatus
-    master: 'room' | (string & {})
-    lead: 'room' | (string & {})
-    options: ServerOptionsSection[]
+    master: ServiceUserId | null
+    lead: ServiceUserId | null
+    options: ServerForm[]
     optionValues: string
-    level?: LevelLocator
+    level: Sil | null
     levelOptions: LevelOptionEntry[]
     autoExit: AutoExit
     isSuggestionsLocked: boolean
     suggestions: Suggestion[]
-    scoreboardDescription: string
+    scoreboardDescription?: string
     scoreboardSections: ScoreboardSection[]
     results: ResultEntry[]
     users: RoomUser[]
@@ -30,11 +30,11 @@ type UpdateEvent = {
 
 Upon receiving, client will:
 
--   Raise a fatal error if `master` is not `room` but does not exist in `users`.
--   Raise a fatal error if `lead` is not `room` but does not exist in `users`.
+-   Raise a fatal error if `master` is not `null` but does not exist in `users`.
+-   Raise a fatal error if `lead` is not `null` but does not exist in `users`.
 -   Raise a fatal error if `options` is empty.
 -   Raise a fatal error if `optionValues` is not a valid value for `options`.
--   Raise a fatal error if `status` is not selecting but `level` is empty.
+-   Raise a fatal error if `status` is not selecting but `level` is `null`.
 -   Raise a fatal error if `levelOptions` contains duplications.
 -   Raise a fatal error if `suggestions` contains duplications.
 -   Raise a fatal error if `users` contains duplications.

@@ -6,7 +6,7 @@ Score.
 
 ```ts
 type ScoreEntry = {
-    userId: string
+    userId: ServiceUserId
     value: Text | (string & {})
 }
 ```

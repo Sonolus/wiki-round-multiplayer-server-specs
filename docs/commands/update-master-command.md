@@ -5,6 +5,6 @@
 ```ts
 type UpdateMasterCommand = {
     type: 'updateMaster'
-    master: string
+    master: ServiceUserId
 }
 ```

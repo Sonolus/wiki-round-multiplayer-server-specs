@@ -5,7 +5,7 @@ Room master.
 ## Syntax
 
 ```ts
-type Master = 'room' | (string & {})
+type Master = ServiceUserId | null
 ```
 
-User id of the room master, or `room` for no player being room master.
+User id of the room master, or `null` for no player being room master.

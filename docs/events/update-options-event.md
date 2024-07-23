@@ -5,7 +5,7 @@
 ```ts
 type UpdateOptionsEvent = {
     type: 'updateOptions'
-    options: ServerOptionsSection[]
+    options: ServerForm[]
     optionValues: string
 }
 ```

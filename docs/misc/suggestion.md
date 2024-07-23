@@ -6,7 +6,7 @@ Suggestion.
 
 ```ts
 type Suggestion = {
-    userId: string
-    level: LevelLocator
+    userId: ServiceUserId
+    level: Sil
 }
 ```

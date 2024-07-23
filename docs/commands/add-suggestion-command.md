@@ -5,6 +5,6 @@
 ```ts
 type AddSuggestionCommand = {
     type: 'addSuggestion'
-    level: LevelLocator
+    level: Sil
 }
 ```

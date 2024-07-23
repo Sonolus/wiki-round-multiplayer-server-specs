@@ -5,5 +5,5 @@ Selected level.
 ## Syntax
 
 ```ts
-type Level = LevelLocator
+type Level = Sil | null
 ```

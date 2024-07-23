@@ -5,7 +5,7 @@
 ```ts
 type ReportUserCommand = {
     type: 'reportUser'
-    userId: string
+    userId: ServiceUserId
     optionValues: string
 }
 ```

@@ -5,7 +5,7 @@ Room options and values.
 ## Syntax
 
 ```ts
-type Options = ServerOptionsSection[]
+type Options = ServerForm[]
 
 type OptionValues = string
 ```

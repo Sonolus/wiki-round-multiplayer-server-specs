@@ -33,15 +33,14 @@
         "title": "Misc",
         "pages": {
             "/misc/auto-exit": "AutoExit",
+            "/misc/chat-message": "ChatMessage",
             "/misc/gameplay-result": "GameplayResult",
-            "/misc/level-locator": "LevelLocator",
             "/misc/level-option-entry": "LevelOptionEntry",
             "/misc/result-entry": "ResultEntry",
             "/misc/room-status": "RoomStatus",
             "/misc/room-user": "RoomUser",
             "/misc/score-entry": "ScoreEntry",
             "/misc/scoreboard-section": "ScoreboardSection",
-            "/misc/server-options-section": "ServerOptionsSection",
             "/misc/suggestion": "Suggestion",
             "/misc/user-status": "UserStatus",
             "/misc/user-status-entry": "UserStatusEntry"

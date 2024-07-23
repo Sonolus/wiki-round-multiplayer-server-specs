@@ -5,7 +5,7 @@ Room lead.
 ## Syntax
 
 ```ts
-type Lead = 'room' | (string & {})
+type Lead = ServiceUserId | null
 ```
 
-User id of the room lead, or `room` for no player being room lead.
+User id of the room lead, or `null` for no player being room lead.

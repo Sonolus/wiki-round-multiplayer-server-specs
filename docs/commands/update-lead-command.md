@@ -5,6 +5,6 @@
 ```ts
 type UpdateLeadCommand = {
     type: 'updateLead'
-    lead: string
+    lead: ServiceUserId
 }
 ```
