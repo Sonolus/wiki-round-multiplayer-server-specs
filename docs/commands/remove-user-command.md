@@ -5,6 +5,6 @@
 ```ts
 type RemoveUserCommand = {
     type: 'removeUser'
-    userId: string
+    userId: ServiceUserId
 }
 ```

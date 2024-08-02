@@ -5,7 +5,7 @@
 ```ts
 type UpdateLevelEvent = {
     type: 'updateLevel'
-    level?: LevelLocator
+    level: Sil | null
 }
 ```
 

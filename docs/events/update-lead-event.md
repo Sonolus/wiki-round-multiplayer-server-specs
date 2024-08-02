@@ -5,7 +5,7 @@
 ```ts
 type UpdateLeadEvent = {
     type: 'updateLead'
-    lead: 'room' | (string & {})
+    lead: ServiceUserId | null
 }
 ```
 

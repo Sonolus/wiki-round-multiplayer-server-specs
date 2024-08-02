@@ -5,7 +5,7 @@
 ```ts
 type UpdateMasterEvent = {
     type: 'updateMaster'
-    master: 'room' | (string & {})
+    master: ServiceUserId | null
 }
 ```
 

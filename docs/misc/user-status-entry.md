@@ -6,7 +6,7 @@ Player status.
 
 ```ts
 type UserStatusEntry = {
-    userId: string
+    userId: ServiceUserId
     status: UserStatus
 }
 ```
